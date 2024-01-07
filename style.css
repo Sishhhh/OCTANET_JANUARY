@@ -132,10 +132,39 @@ a{
 
 #hero-photo{
     position: absolute;
-    width: 35%;
-    top: 1rem;
-    right: 5rem;
+    width: 55%;
+    top: 3.9rem;
+    right: 0.5rem;
+    animation: slide infinite linear 2s;
+}
 
+@keyframes slide {
+    0%{
+        top : 3.9rem;
+        right: 1rem;
+
+    }
+
+    30%{
+         top : 3.5rem;
+         right: 1.5rem;
+    }
+
+    60%{
+        top: 3rem;
+        right: 1.5rem;
+        transform: translateY(0.5rem);
+    }
+
+    90%{
+        top: 3.5rem;
+        right: 1.5rem;
+    }
+
+    100%{
+        transform: translateX(0.5rem);
+    }
+    
 }
 
 .card{
