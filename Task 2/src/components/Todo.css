@@ -1,0 +1,72 @@
+.title{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid black;
+    background-color: rgb(151, 127, 206);
+    text-align: center;
+    padding: 0 1.2rem;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+#task{
+    width: 27rem;
+    color:steelblue 
+}
+
+#btn{
+    width: 13rem;
+}
+
+.task{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+li{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 15rem;
+    margin: 0.8rem;
+    padding: 0.4rem 0.7rem;
+    background-color: rgb(163, 155, 137);
+    border: 1px solid black;
+    max-width: 100%;
+    min-width: 50%;
+    text-align: center;
+    
+}
+
+#deletetask{
+    position: absolute;
+    right: 182px;
+}
+
+#delete{
+    position: absolute;
+    top: 130px;
+    left: 500px;
+    background-color: rgb(230, 95, 95);
+    transition: all 2s linear infinite;
+}
+
+#imp{
+    position: absolute;
+    right: 20rem;
+}
+
+#done{
+    position: absolute;
+    left: 210px;
+}
